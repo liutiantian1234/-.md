@@ -1,0 +1,22 @@
+#include<iostream>
+#include<string>
+using namespace std;//包含cout输出  cin输入，出现cout Cin是std里面的
+struct SummerTrain
+{
+	char number[20];
+	int age;
+	string name;
+};
+int main()
+{
+	SummerTrain liu =
+	{
+		"P193010**",
+		22,
+		"刘甜甜",
+	};
+	cout << "学号： " << liu.number << endl;//endl 起换行和结束的作用 <<从右到左到cout输出
+	cout << "年龄： " << liu.age << endl;
+	cout << "姓名： " << liu.name << endl;
+	system("pause");
+}
